@@ -1,0 +1,119 @@
+.background 	{ background: rgb(52, 166, 251);
+				  border-spacing: 0;				}
+.scoreing		{   background: rgba(255, 255, 255, 0.6);
+    				border-spacing: 0;
+   					position: fixed;
+    				/*margin-top: -470px;*/
+    				margin-bottom: 430px;
+    				margin-left: 10px;
+    				margin-right: 10px;	
+    				width: 980px;		}
+
+/* -------- Scoring Groups  -------*/
+.level-group		{ float:left; }
+.life-group			{ float:left;
+					  margin-left: 40px; }
+.game-over-group	{ float:left;
+					  margin-left: 40px; }
+.paused-group		{ float:left;
+					  margin-left: 40px; }
+.coin-group			{ float:right; } 
+
+
+
+/* ---------    Digits    ---------*/
+.s-left-digit       { float:left; 
+					  margin:4px;	
+					  /*max-height: 20px;*/	
+					  position: relative;
+					  overflow: hidden;}
+
+.s-right-digit       { float:left; 
+					  margin:4px 4px 4px 0;	
+					  /*max-height: 20px;	*/
+					  position: relative;
+					  overflow: hidden;}
+
+.s-num-strip 		{  	border-spacing: 0; }
+.s-num-strip td    	{   padding: 0; }  
+.s-num-strip .d 	{  background: rgb(0,0,0); }
+
+/* ---   Paused and Game Over Sign    ---*/
+.s-paused 			{  	border-spacing: 0; 
+						margin: 4px;}
+.s-paused td    	{   padding: 0; }  
+.s-paused .d 		{  background: rgb(0,0,0); } 
+
+.s-game-over 		{  	border-spacing: 0;
+						margin: 4px; }
+.s-game-over td    	{   padding: 0; }  
+.s-game-over .d 	{  background: rgb(0,0,0); }
+
+
+
+/* ---------  Level Group  ---------*/
+.s-level-symbol 	{  	border-spacing: 0; 
+						float: left;
+					    margin: 4px;}
+.s-level-symbol td  {   padding: 0; }    				
+.s-level-symbol .d	{  	background: rgb(0,0,0); } 
+
+.s-level-count     	{ float:left; }
+
+
+	
+/* ---------  Life Group  ---------*/
+.s-heart			{  float:left; 
+		 			  	border-spacing: 0;
+						margin: 4px; }
+.s-heart td    		{   padding: 0; }  
+.s-heart .r 		{  background: rgb(255,5,5); }
+.s-heart .w 		{  background: rgb(255,255,255); }
+
+.s-x				{  float:left; 
+						margin: 4px;
+					 	border-spacing: 0; }
+.s-x td    			{   padding: 0; }  
+.s-x .x 			{  background: rgb(0,0,0); }
+
+.s-life-num     	{ float:left; }
+
+
+/* ---------  Coin Group  ---------*/
+.s-coin				{  float:left; 
+		 			  	border-spacing: 0;
+						margin: 4px; }
+.s-coin td    		{   padding: 0; }  
+.s-coin .g 			{  background: rgb(205,205,95); }
+.s-coin .w 			{  background: rgb(255,255,255); }
+.s-coin .b 			{  background: rgb(0,0,0); }
+
+
+.s-slash			{  float:left; 
+						margin: 4px;
+					 	border-spacing: 0; }
+.s-slash td    		{   padding: 0; }  
+.s-slash .x 		{  background: rgb(0,0,0); }
+
+.s-coin-num			{ float:left; }
+.s-coin-count		{ float:left; }
+
+/* ---------  Main Selectors  ---------*/
+.background td	{ padding: 0;						}
+.lava			{ background: rgb(255, 100, 100);	}
+.wall			{ background: white;				}
+
+.actor 			{ position: absolute;				}
+.coin			{ background: rgb(241, 229, 89);	}
+.player			{ background: rgb(64, 64, 64);		}
+
+.lost .player 	{ background: rgb(160, 64, 64)		}
+.won .player	{ box-shadow: -4px -7px 8px white,
+				  			   4px -7px 8px;		}				
+				  			   
+.game			{ overflow: hidden;
+				  max-width: 1000px;
+				  max-height: 450px;
+				  position: relative;				}
+
+			 				  			   
